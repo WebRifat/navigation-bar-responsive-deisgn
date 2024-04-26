@@ -1,0 +1,77 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    
+    
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+}
+.align-center{
+    align-items: center;
+}
+/* .justify-center{
+    justify-content: center;
+}  */
+/* common css */
+/* navbar */
+nav{
+    background-color: dodgerblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+   
+}
+nav .logo{
+    color: white;
+    font-family: cursive;
+    font-size: 27px;
+    font-weight: bold;
+}
+nav .menu ul li{
+    display: inline-block;
+
+}
+nav .menu ul li a{
+    color: white;
+    padding: 12px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+nav .menu ul li:hover a{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.fa.fa-bars{
+    display: none;
+}
+/* navbar */
